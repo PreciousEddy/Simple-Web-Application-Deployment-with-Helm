@@ -29,18 +29,29 @@ Before you begin, ensure you have the following installed:
 
 The project has the following structure:
 
-.
+
 ├── Dockerfile
+
 ├── app.py
+
 ├── requirements.txt
+
 └── mywebapp/
+
 ├── Chart.yaml
+
 ├── charts/
+
 ├── templates/
+
 │ ├── deployment.yaml
+
 │ └── service.yaml
+
 ├── values.yaml
-└── ...
+
+└── 
+...
 
 
 - **Dockerfile**: Defines how to build the Docker image for the Flask application.
